@@ -12,6 +12,7 @@ class Team extends Model
 
     protected $fillable = [
         'name',
+        'img_url',
         'matches_played',
         'wins',
         'draws',
